@@ -2,6 +2,26 @@
 # yarn lockfile v1
 
 
-"bs-platform@git+https://github.com/bsansouci/bsb-native":
-  version "2.1.1"
-  resolved "git+https://github.com/bsansouci/bsb-native#62cf56c51f229df9f5ae475272a451d033911e98"
+"@esy-ocaml/esy-opam@0.0.14":
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/@esy-ocaml/esy-opam/-/esy-opam-0.0.14.tgz#f7c1ed6246d6e6ff2dff1e9f74b90875b1fa061f"
+
+"@esy-ocaml/ocamlrun@4.6.3":
+  version "4.6.3"
+  resolved "https://registry.yarnpkg.com/@esy-ocaml/ocamlrun/-/ocamlrun-4.6.3.tgz#36caccd8f312f607a7f411bc2c7d76de52c40e58"
+
+bs-platform@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-3.0.0.tgz#38f200730db52fdea37819376b6ac3dfb20244c0"
+
+esy@^0.0.70:
+  version "0.0.70"
+  resolved "https://registry.yarnpkg.com/esy/-/esy-0.0.70.tgz#21086ed09330ef4599b145d072642a34d351f8ff"
+  dependencies:
+    "@esy-ocaml/esy-opam" "0.0.14"
+    "@esy-ocaml/ocamlrun" "4.6.3"
+    fastreplacestring "git+https://github.com/IwanKaramazow/FastReplaceString.git#0.0.4"
+
+"fastreplacestring@git+https://github.com/IwanKaramazow/FastReplaceString.git#0.0.4":
+  version "0.0.3"
+  resolved "git+https://github.com/IwanKaramazow/FastReplaceString.git#e834cbed0e71d7e0967ab31f1d67f95af7f05e53"

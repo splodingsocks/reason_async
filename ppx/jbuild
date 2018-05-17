@@ -1,0 +1,5 @@
+(executable 
+ ((name ppx_async) 
+ (public_name reason_async) 
+ (libraries (compiler-libs.common unix))
+ (flags (-w A-42-40-4-9))))
