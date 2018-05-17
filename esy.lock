@@ -6,14 +6,6 @@
   version "0.0.0"
   resolved "https://registry.yarnpkg.com/@esy-ocaml/esy-installer/-/esy-installer-0.0.0.tgz#6b0e2bd4ee43531ac74793fe55cfcc3aca197a66"
 
-"@esy-ocaml/esy-opam@0.0.14":
-  version "0.0.14"
-  resolved "https://registry.yarnpkg.com/@esy-ocaml/esy-opam/-/esy-opam-0.0.14.tgz#f7c1ed6246d6e6ff2dff1e9f74b90875b1fa061f"
-
-"@esy-ocaml/ocamlrun@4.6.3":
-  version "4.6.3"
-  resolved "https://registry.yarnpkg.com/@esy-ocaml/ocamlrun/-/ocamlrun-4.6.3.tgz#36caccd8f312f607a7f411bc2c7d76de52c40e58"
-
 "@esy-ocaml/substs@^0.0.1":
   version "0.0.1"
   resolved "https://registry.yarnpkg.com/@esy-ocaml/substs/-/substs-0.0.1.tgz#59ebdbbaedcda123fc7ed8fb2b302b7d819e9a46"
@@ -133,7 +125,7 @@
   peerDependencies:
     ocaml " >= 4.2.3000"
 
-"@opam/lwt@ >= 2.7.0  < 4.0.0":
+"@opam/lwt@ >= 2.7.0  < 4.0.0", "@opam/lwt@ >= 3.0.0", "@opam/lwt@*", "@opam/lwt@3.3.0":
   version "3.3.0"
   uid d6527433462fadf2f1b8168dbb5cf10e
   resolved "@opam/lwt@3.3.0-d6527433462fadf2f1b8168dbb5cf10e.tgz"
@@ -145,20 +137,6 @@
     "@opam/ocaml-migrate-parsetree" "*"
     "@opam/ocamlfind" " >= 1.7.3--1"
     "@opam/ppx_tools_versioned" " >= 5.0.1"
-    "@opam/result" "*"
-  peerDependencies:
-    ocaml " >= 4.2.0"
-
-"@opam/lwt@ >= 3.0.0", "@opam/lwt@*":
-  version "4.0.1"
-  uid "500e177eb31e84ddfe24ee6b64bd0c64"
-  resolved "@opam/lwt@4.0.1-500e177eb31e84ddfe24ee6b64bd0c64.tgz"
-  dependencies:
-    "@esy-ocaml/esy-installer" "^0.0.0"
-    "@esy-ocaml/substs" "^0.0.1"
-    "@opam/cppo" " >= 1.1.0"
-    "@opam/jbuilder" " >= 1.0.0-beta14"
-    "@opam/ocamlfind" " >= 1.7.3--1"
     "@opam/result" "*"
   peerDependencies:
     ocaml " >= 4.2.0"
@@ -347,18 +325,6 @@
 bs-platform@^3.0.0:
   version "3.0.0"
   resolved "https://registry.yarnpkg.com/bs-platform/-/bs-platform-3.0.0.tgz#38f200730db52fdea37819376b6ac3dfb20244c0"
-
-esy@^0.0.70:
-  version "0.0.70"
-  resolved "https://registry.yarnpkg.com/esy/-/esy-0.0.70.tgz#21086ed09330ef4599b145d072642a34d351f8ff"
-  dependencies:
-    "@esy-ocaml/esy-opam" "0.0.14"
-    "@esy-ocaml/ocamlrun" "4.6.3"
-    fastreplacestring "git+https://github.com/IwanKaramazow/FastReplaceString.git#0.0.4"
-
-"fastreplacestring@git+https://github.com/IwanKaramazow/FastReplaceString.git#0.0.4":
-  version "0.0.3"
-  resolved "git+https://github.com/IwanKaramazow/FastReplaceString.git#e834cbed0e71d7e0967ab31f1d67f95af7f05e53"
 
 ocaml@~4.2.3000:
   version "4.2.3004"

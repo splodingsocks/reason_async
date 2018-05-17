@@ -10,13 +10,16 @@
       "releasedBinaries": ["reason_async"]
     }
   },
-  "dependencies": {},
-  "devDependencies": {
+  "dependencies": {
     "@opam/jbuilder": "^1.0.0-beta20",
     "@opam/reason": "^3.0.4",
-    "bs-platform": "^3.0.0",
-    "ocaml": "~4.2.3000",
-    "esy": "^0.0.70"
+    "bs-platform": "^3.0.0"
+  },
+  "resolutions": {
+    "**/@opam/lwt": "3.3.0"
+  },
+  "devDependencies": {
+    "ocaml": "~4.2.3000"
   },
   "scripts": {
     "build": "bsb -make-world -backend native",
